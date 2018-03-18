@@ -1,18 +1,19 @@
+<!DOCTYPE html>
 <html>
 <body>
 
 <?php
-$im = imagecreatefrompng("Face.jpg");
+$im = imagecreatefromjpeg("Face.jpg");
 $rgb = imagecolorat($im, 10, 15);
 $r = ($rgb >> 16) & 0xFF;
 $g = ($rgb >> 8) & 0xFF;
 $b = $rgb & 0xFF;
-
-var_dump($r, $g, $b);
+ echo var_dump($r, $g, $b) ;
+  echo "Successfully added";
 ?>
-printf (var_dump);
+<h1>My First Heading</h1>
 
-echo "Successfully added";
+<p>My first paragraph.</p>
 
 </body>
 </html>
