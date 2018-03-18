@@ -11,6 +11,9 @@ $b = $rgb & 0xFF;
  echo var_dump($r, $g, $b) ;
   echo "Successfully added";
 ?>
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
 
 </body>
 </html>
