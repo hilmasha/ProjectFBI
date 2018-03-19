@@ -2,7 +2,7 @@
 
  //starts a session for a new user
 session_start();
-$dbhost = 'http://ec2-54-166-222-59.compute-1.amazonaws.com';
+$dbhost = 'http://ec2-35-168-50-227.compute-1.amazonaws.com';
 $dbuser = 'root';
 $dbpassword = 'user';
 $dbname = 'custombeauty';
